@@ -15,27 +15,41 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
                 &times;
             </button>
 
-            <a href="#home" 
-            className=""
-            onClick={() => {setMenuOpen(false)}}>
+            <a href="#home"
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                ${menuOpen
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-5"
+                    }`
+                }
+                onClick={() => { setMenuOpen(false) }}>
                 Home
             </a>
 
-            <a href="#about" 
-            className="text-gray-300 hover:text-white transition-colors"
-            onClick={() => {setMenuOpen(false)}}>
+            <a href="#about"
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+    ${menuOpen
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-5"
+                    }`} onClick={() => { setMenuOpen(false) }}>
                 About
             </a>
 
-            <a href="#projects" 
-            className="text-gray-300 hover:text-white transition-colors"
-            onClick={() => {setMenuOpen(false)}}>
+            <a href="#projects"
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                ${menuOpen
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-5"
+                    }`} onClick={() => { setMenuOpen(false) }}>
                 Projects
             </a>
 
-            <a href="#contact" 
-            className="text-gray-300 hover:text-white transition-colors"
-            onClick={() => {setMenuOpen(false)}}>
+            <a href="#contact"
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                ${menuOpen
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 translate-y-5"
+                    }`} onClick={() => { setMenuOpen(false) }}>
                 Contact
             </a>
 
