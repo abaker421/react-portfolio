@@ -49,30 +49,43 @@ export const About = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                                <h3 className="text-xl font-bold mb-4">📖 Education</h3>
-                                    <ul className=" text-gray-300 space-y-2 my-3">
-                                        <li>
-                                            <strong>Certificate of Completion</strong> - University of Wisconsin Online Boot Camp (2023)
-                                        </li>
-                                        <li className="list-disc list-inside">
-                                            <span className="italic">Relevant Coursework:</span> Javascript, Data Structures, Object-Oriented Programming, React, Web Applications...
-                                        </li>
-                                    </ul>
-                                    <ul className="text-gray-300 space-y-2 my-3">
-                                        <li>
-                                            <strong>Double-Star Ranger</strong> - Salesforce Trailhead
-                                        </li>
-                                        <li className="list-disc list-inside">
-                                            <span className="italic">Relevant Coursework:</span> Sales Cloud, Service Cloud, Experience Cloud, Data Analytics, Flows...
-                                        </li>
-                                    </ul>
-                                <h3 className="text-xl font-bold mb-4">🏢 Work Experience</h3>
-                                <h3 className="text-xl font-bold mb-4">🍳 Skills</h3>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">📖 Education</h3>
+                        <ul className=" text-gray-300 space-y-2 my-3">
+                            <li>
+                                <strong>Certificate of Completion</strong> - University of Wisconsin Online Boot Camp (2023)
+                            </li>
+                            <li className="list-disc list-inside">
+                                <span className="italic">Relevant Coursework:</span> Javascript, Data Structures, Object-Oriented Programming, React, Web Applications...
+                            </li>
+                        </ul>
+                        <ul className="text-gray-300 space-y-2 my-3">
+                            <li>
+                                <strong>Double-Star Ranger</strong> - Salesforce Trailhead
+                            </li>
+                            <li className="list-disc list-inside">
+                                <span className="italic">Relevant Coursework:</span> Sales Cloud, Service Cloud, Experience Cloud, Data Analytics, Flows...
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">🏢 Work Experience</h3>
+                        <div className="space-y-4 text-gray-300">
+                            <div className="text-gray-300 space-y-2 my-3">
+                                <h4 className="font-semibold"><strong>DevOps Engineeer/IT Support Coordinator</strong> - School Technology Associates (2022-current)</h4>
+                                <li className=" list-disc list-inside">Implement and support more than 8 product lines, including product development and process enhancement</li>
+                            </div>
+                            <div className="text-gray-300 space-y-2 my-3">
+                                <h4 className="font-semibold"><strong>Produce Manager</strong> - Coborns, Inc.</h4>
+                                <li className="list-disc list-inside">Managed the produce department, including coaching, scheduling and training staff, adhereing to FDA guidelines, and placing weekly product orders while minimizing shrink</li>
+                            </div>
                         </div>
+                    </div>
+                                
                 </div>
-
             </div>
+
+
         </section>
     )
 }
