@@ -1,12 +1,11 @@
-import styles from "./App.modules.css"
-
+import { LoadingScreen } from "./components/LoadingScreen"
+import "./index.css"
 
 function App() {
 
   return (
     <>
-      Hello world!
-      <div className={styles.App}>Hello World!</div>
+     <LoadingScreen />
     </>
   )
 }
