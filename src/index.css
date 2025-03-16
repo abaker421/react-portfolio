@@ -11,7 +11,29 @@ body {
 
 
 @layer utilities {
-    @keyframe loading {
+    @keyframes blink {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+
+    }
+
+    /* adds blink to Cursor at end of sentence */
+    .animate-blink {
+        animation: blink 0.8s step-end infinite;
+    }
+
+    /* Adss animation to loading bar */
+    .animate-loading-bar {
+        animation: loading 0.8s ease infinite;
+    }
+
+    @keyframes loading {
         0% {
             transform: translatex(-100%);
         }
@@ -20,8 +42,4 @@ body {
             transform: translatex(250%);
         }
     }
-}
-
-.animate-loading-bar {
-    animation: loading 0.8s ease infinite;
 }
