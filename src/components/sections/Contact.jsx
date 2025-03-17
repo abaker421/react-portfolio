@@ -33,9 +33,9 @@ export const Contact = () => {
     }
 
     return (
-        <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+        <section id="contact" className="min-h-screen w-full flex items-center justify-center py-20">
             <RevealOnScroll>
-                <div className="px-4 w-150 border border-white/10 rounded-xl ">
+                <div className="px-4 w-100 border border-white/10 rounded-xl ">
 
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center py-3">Get In Touch</h2>
                     <form className="space-y-6" onSubmit={handleSubmit}>
